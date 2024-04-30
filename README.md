@@ -10,7 +10,7 @@ Diagram : <br/>
 Write the following SQL queries into [_1_create_database.sql_](1_create_database.sql)
 1. Create a Database named **UniversityDB**
 2. Create Table named **Laboratoire** with the following attribute
-    * CodeLab varchar(4) (Primary Key)
+    * <u>CodeLab</u> varchar(4) (Primary Key)
     * NomLab varchar (100)
     * NumCh* Type Integer
     * Datcreation Date
@@ -32,7 +32,7 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
     * Libelle varchar(60)
 6. Create Table named **Participe** with the following attribute
     * NumCh* INT (Primary Key)
-    * CodePrj* varchar(4)
+    * CodePrj* varchar(4) (Primary Key)
     * Charge_Horaire INT
 7. Create Table named **Universite** with the following attribute
     * CodeUniversite varchar(10) (Primary Key)
