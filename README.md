@@ -51,9 +51,9 @@ Write the following SQL queries to adjust the database:
  ## Exercise 3 : Database Queries 
 
  1. Display average of **Charge_H** of each **project**. Put your query into [_3_1_average.sql_](3_1_average.sql)
- 2. Display (_NomCh, NomUniversite_) of the **chercheur** related to '**LSI**' **laboratoire**. Put your query into [3_2_nomCh.sql_](_3_2_nomCh.sql)
+ 2. Display (_NomCh, NomUniversite_) of the **chercheur** related to '**LSI**' **laboratoire**. Put your query into [_3_2_nomCh.sql_](3_2_nomCh.sql)
  3. Display the most expensive **TypeProjet** (TypePrj) with its budget. Put your query into [_3_3_budget.sql_](3_3_budget.sql)
- 4. Sort the **laboratoire** in descending order based on the overall **charge_h** provided by its **chercheur**. Put your query into [3_4_sort.sql_](_3_4_sort.sql)
+ 4. Sort the **laboratoire** in descending order based on the overall **charge_h** provided by its **chercheur**. Put your query into [_3_4_sort.sql_](3_4_sort.sql)
 
  
   Check the Actions tab to see if you have completed the exercise successfully. You should score full marks if all tests have passed (14 points).
