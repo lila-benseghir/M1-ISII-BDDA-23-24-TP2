@@ -24,7 +24,7 @@ insert into projet values ('p5','9-07-2006','Said Khalef',2610000,'PNR');
 insert into projet values ('p6','10-07-2008','Hichem Labed',2170000,'CI');
 insert into projet values ('p7','11-07-2009','Souad Khadem',1940000,'CI');
 insert into projet values ('p8','12-07-2008','Rafik Bradi',1610000,'PNR');
-insert into projet values ('p9','13-07-2007','Salim Ahmed',1820000,'CNEPRU');
+insert into projet values ('p9','12-07-2007','Salim Ahmed',1820000,'CNEPRU');
 insert into projet values ('p10','14-07-2008','Karim Abed',2520000,'AC');
 insert into projet values ('p11','16-07-2007','Salima Herrath',1920000,'CNEPRU');
 insert into projet values ('p12','17-07-2008','Karima Mahi',4500000,'P2012');
