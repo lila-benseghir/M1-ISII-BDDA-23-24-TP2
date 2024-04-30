@@ -9,7 +9,7 @@ USE UniversityDB
 create table laboratoire (
   codelab varchar(4) primary key not null,
   nomlab varchar(100), 
-  cheflab INT not null, 
+  cheflab INT, 
   datecréation date,
   siteweb varchar(100)
   );
