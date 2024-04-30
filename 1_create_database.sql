@@ -27,5 +27,3 @@ create table projet (
   budget INT,
   typeprj varchar(10)
   );
-
-alter table projet drop column datefin
