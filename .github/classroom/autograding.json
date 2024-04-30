@@ -48,7 +48,7 @@
       "output": "0",
       "comparison": "included",
       "timeout": 10,
-      "points": 0.5
+      "points": 1
     },
     {
       "name": "Start 2_3_Charge_H.sql",
@@ -68,7 +68,7 @@
       "output": "Charge_H",
       "comparison": "included",
       "timeout": 10,
-      "points": 0.5
+      "points": 2
     }
   ]
 }
