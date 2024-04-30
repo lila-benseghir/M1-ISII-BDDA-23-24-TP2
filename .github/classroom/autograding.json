@@ -105,7 +105,7 @@
       "setup": "",
       "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -Q \"USE UniversityDB SELECT constraint_name, CONSTRAINT_TYPE FROM information_schema.table_constraints WHERE table_name = 'projet' AND constraint_type = 'CHECK'\"",      
       "input": "",
-      "output": "cheflab",
+      "output": "CHECK",
       "comparison": "included",
       "timeout": 10,
       "points": 0.5
