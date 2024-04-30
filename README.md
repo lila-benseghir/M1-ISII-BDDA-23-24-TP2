@@ -36,7 +36,7 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
     * Charge_Horaire INT
 7. Create Table named **Universite** with the following attribute
     * CodeUniversite varchar(10) (Primary Key)
-    * NomUniversité varchar(60)
+    * NomUniversite varchar(60)
   
 
 ## Exercise 2 : Database adjustements
@@ -48,5 +48,12 @@ Write the following SQL queries to adjust the database:
 4. Add the constraint "Each **laboratoire** must have a _chef_" . Put your query into [_2_4_chef.sql_](_2_4_chef.sql)
 5. Add the constraint "The _budget_ of each **projet** must not exceed 5000000". Put your query into [_2_5_budget.sql_](_2_5_budget.sql)
    
-     
+ ## Exercise 3 : Database Queries 
+
+ 1. Display average of **Charge_H** of each **project**. Put your query into [_3_1_average.sql_](_3_1_average.sql)
+ 2. Display (_NomCh, NomUniversite_) of the **chercheur** related to '**LSI**' **laboratoire**. Put your query into [_3_2_nomCh.sql_](_3_2_nomCh.sql)
+ 3. Display the most expensive **TypeProjet** (TypePrj) with its budget. Put your query into [_3_3_budget.sql_](_3_3_budget.sql)
+ 4. Sort the **laboratoire** in descending order based on the overall **charge_h** provided by its **chercheur**
+
+ 
   Check the Actions tab to see if you have completed the exercise successfully. You should score full marks if all tests have passed (14 points).
