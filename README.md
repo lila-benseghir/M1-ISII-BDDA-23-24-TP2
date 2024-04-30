@@ -17,6 +17,7 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
     * Siteweb NVARCHAR (255)
 3. Create Table named **Chercheur** with the following attribute
     * NumCh Type Integer (Primary Key) auto increment
+    * NomCh varchar(30)
     * CodeLab* varchar(4)
     * CodeUniversité varchar(10)
 4. Create Table named **Projet** with the following attribute
@@ -33,6 +34,10 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
     * NumCh* INT (Primary Key)
     * CodePrj* varchar(4)
     * Charge_Horaire INT
+7. Create Table named **Universite** with the following attribute
+    * CodeUniversite varchar(10) (Primary Key)
+    * NomUniversité varchar(60)
+  
 
 ## Exercise 2 : Insert Data
 
