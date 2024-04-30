@@ -23,7 +23,7 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
 4. Create Table named **Projet** with the following attribute
     * CodePrj varchar(4) (Primary Key)
     * DateDebut Date
-    * Datefin Date
+    * DateFin Date
     * Responsable varchar(30)
     * Budjet INT
     * TypePrj* varchar(10)
@@ -39,21 +39,14 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
     * NomUniversité varchar(60)
   
 
-## Exercise 2 : Insert Data
+## Exercise 2 : Database adjustements
 
-Write the following SQL queries into _2_insert_data.sql_
-1. Insert two teachers
-   * (1,sofian,family1,123,`s_f3@gmail.com`)
-   * (2,yacin,family2,456,`y_f4@gmail.com`)
-2. Insert two students
-   * (1,mohamed,family3,123)
-   * (2,youcef,family4,456)
-3. Insert two cours
-   * (1,MultiMedia)
-   * (2,BDDA)
-4. Insert coursTeacher
-   * (1,1,1,Jeudi,8)
-   * (1,1,2,Jeudi,8)
-   * (2,2,1,Jeudi,9)
+Write the following SQL queries to adjust the database:
+1. Add new column **date_naissance** to the table **chercheur**. Put your query into [_2_1_DateNaissance.sql_](2_1_DateNaissance.sql)
+2. Delete the column **DateFin** from the table **Projet**. Put your query into [_2_2_DateFin.sql_](_2_2_DateFin.sql)
+3. Rename the column **Charge_Horaire** from the table **Participe** to **Charge_H**. Put your query into [_2_3_Charge_H.sql_](_2_3_Charge_H.sql)
+4. Add the constraint "Each **laboratoire** must have a _chef_" . Put your query into [_2_4_chef.sql_](_2_4_chef.sql)
+5. Add the constraint "The _budget_ of each **projet** must not exceed 5000000. Put your query into [_2_5_budget.sql_](_2_5_budget.sql)
+   
      
   Check the Actions tab to see if you have completed the exercise successfully. You should score full marks if all tests have passed (14 points).
