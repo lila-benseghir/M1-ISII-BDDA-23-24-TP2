@@ -1,5 +1,6 @@
 USE UniversityDB
-  
+
+  SET NOCOUNT ON;
 insert into universite values ('USTHB','université de science et de technologie houari boumedien');
 insert into universite values ('UMBB','université de boumerdes');
 insert into universite values ('USDB','université de blida');
