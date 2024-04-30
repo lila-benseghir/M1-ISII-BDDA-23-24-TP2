@@ -45,7 +45,7 @@
       "setup": "",
       "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -Q \"USE UniversityDB SELECT count(COLUMN_NAME) FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'Projet' AND COLUMN_NAME = 'DateFin'\"",
       "input": "",
-      "output": "0",
+      "output": "   0",
       "comparison": "included",
       "timeout": 10,
       "points": 1
