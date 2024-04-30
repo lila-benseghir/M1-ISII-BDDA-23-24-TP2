@@ -7,24 +7,4 @@
 GO
 USE UniversityDB
 
--- Create the table teacher 
-
-
-
-    
-    
--- Create the table student
-
-
-
-    
-
--- Create the table Cours 
-
-
-
-
-    
--- Create the table CoursTeacher
-
-    
+-- Create the Tables
