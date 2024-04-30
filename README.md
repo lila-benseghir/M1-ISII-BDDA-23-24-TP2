@@ -10,7 +10,7 @@ Diagram : <br/>
 Write the following SQL queries into [_1_create_database.sql_](1_create_database.sql)
 1. Create a Database named **UniversityDB**
 2. Create Table named **Laboratoire** with the following attribute
-    * <u>CodeLab</u> varchar(4) (Primary Key)
+    * __CodeLab__ varchar(4) (Primary Key)
     * NomLab varchar (100)
     * NumCh* Type Integer
     * Datcreation Date
