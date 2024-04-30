@@ -69,6 +69,26 @@
       "comparison": "included",
       "timeout": 10,
       "points": 0.5
+    },
+    {
+      "name": "Start 2_4_chef.sql",
+      "setup": "",
+      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/2_4_chef.sql",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Check the contraint "Each laboratoire must have a chef"",
+      "setup": "",
+      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -Q \"USE UniversityDB SELECT column_name, is_nullable FROM information_schema.columns WHERE table_name = 'Projet' AND column_name = 'Charge_H'\"",      
+      "input": "",
+      "output": "Charge_H",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.5
     }
   ]
 }
