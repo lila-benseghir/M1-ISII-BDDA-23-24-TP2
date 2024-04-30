@@ -16,7 +16,7 @@ insert into typeprojet values ('CNEPRU','recherche universitaire') ;
 insert into typeprojet values ('AC','accord cadre') ;
 insert into typeprojet values ('CI','coopération international');
 
-insert into projet values ('p1','5-07-2008','Salim Ahmed',1920000,'PNR','5-08-2011');
+insert into projet values ('p1','09-02-1982','Salim Ahmed',1920000,'PNR','09-02-1983');
 insert into projet values ('p2','6-07-2007','Karim Abed', 2620000,'CNEPRU','6-09-2010');
 insert into projet values ('p3','7-07-2008','Salima Herrath',2240000,'PNR','7-04-2009');
 insert into projet values ('p4','8-07-2008','Karima Mahi',2230000,'CNEPRU','8-09-2010');
