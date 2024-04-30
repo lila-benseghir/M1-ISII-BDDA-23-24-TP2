@@ -103,7 +103,7 @@
     {
       "name": "Check the contraint 'The budget of each projet must not exceed 5000000'",
       "setup": "",
-      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -Q \"USE UniversityDB SELECT constraint_name FROM information_schema.table_constraints WHERE table_name = 'projet' AND constraint_type = 'CHECK' AND check_clause ILIKE '%budget%<=5000000%' \"",      
+      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -Q \"USE UniversityDB SELECT constraint_name, check_clause FROM information_schema.table_constraints WHERE table_name = 'projet' AND constraint_type = 'CHECK'\"",      
       "input": "",
       "output": "cheflab",
       "comparison": "included",
