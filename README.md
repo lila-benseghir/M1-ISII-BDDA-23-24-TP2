@@ -46,7 +46,7 @@ Write the following SQL queries to adjust the database:
 2. Delete the column **DateFin** from the table **Projet**. Put your query into [_2_2_DateFin.sql_](_2_2_DateFin.sql)
 3. Rename the column **Charge_Horaire** from the table **Participe** to **Charge_H**. Put your query into [_2_3_Charge_H.sql_](_2_3_Charge_H.sql)
 4. Add the constraint "Each **laboratoire** must have a _chef_" . Put your query into [_2_4_chef.sql_](_2_4_chef.sql)
-5. Add the constraint "The _budget_ of each **projet** must not exceed 5000000. Put your query into [_2_5_budget.sql_](_2_5_budget.sql)
+5. Add the constraint "The _budget_ of each **projet** must not exceed 5000000". Put your query into [_2_5_budget.sql_](_2_5_budget.sql)
    
      
   Check the Actions tab to see if you have completed the exercise successfully. You should score full marks if all tests have passed (14 points).
