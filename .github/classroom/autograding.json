@@ -81,7 +81,7 @@
       "points": 0
     },
     {
-      "name": "Check the contraint "Each laboratoire must have a chef",
+      "name": "Check the contraint 'Each laboratoire must have a chef'",
       "setup": "",
       "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -Q \"USE UniversityDB SELECT column_name, is_nullable FROM information_schema.columns WHERE table_name = 'Projet' AND column_name = 'Charge_H'\"",      
       "input": "",
