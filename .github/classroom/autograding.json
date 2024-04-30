@@ -113,7 +113,7 @@
     {
       "name": "Exercice 3 : Insert Data",
       "setup": "",
-      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/asset/insert_data.sql",
+      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/assets/insert_data.sql",
       "input": "",
       "output": "",
       "comparison": "included",
