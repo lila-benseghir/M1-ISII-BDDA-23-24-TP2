@@ -1,13 +1,13 @@
-# TP 1 : Simple DB manipulation
+# TP 2 : Database Management
 
-In this exercise, you will write SQL queries that create a database, tables and insert simple Data.
+In this exercise, you will write SQL queries that create a database, tables, and answer some business queries.
 
 Diagram : <br/>
 ![diagram](<assets/diagram.png>)
 
 ## Exercise 1 : Create the Database
 
-Write the following SQL queries into _1_create_database.sql_
+Write the following SQL queries into [1_input_1.xml](_1_create_database.sql_)
 1. Create a Database named **UniversityDB**
 2. Create Table named **teacher** with the following attribute
     * ID Type Integer (Primary Key) auto increment
