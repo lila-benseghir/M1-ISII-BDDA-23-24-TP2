@@ -9,7 +9,7 @@ insert into universite values ('ESI','ecole superieur d informatique');
 insert into laboratoire values ('LSI','laboratoire des systemes informatique',1,'06-09-1999','www.lsi-dz.com');
 insert into laboratoire values ('LIA','laboratoire d intelligence artificielle',4,'12-06-1993','www.lia-daz.com');
 insert into laboratoire values ('LMA','laboratoire de mathématique appliquée ',5,'08-02-1982','www.lma.fr');
-insert into laboratoire values ('LGP','laboratoire génie des procédés ',7,'24-04-2001','http://wwwlgp.com');
+insert into laboratoire values ('LGP','laboratoire génie des procédés ',7,'09-02-1982','http://wwwlgp.com');
 
 insert into typeprojet values ('PNR','projet national');
 insert into typeprojet values ('CNEPRU','recherche universitaire') ;
