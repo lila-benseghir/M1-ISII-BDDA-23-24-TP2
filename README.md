@@ -9,27 +9,30 @@ Diagram : <br/>
 
 Write the following SQL queries into [_1_create_database.sql_](1_create_database.sql)
 1. Create a Database named **UniversityDB**
-2. Create Table named **teacher** with the following attribute
-    * ID Type Integer (Primary Key) auto increment
-    * FirstName NVARCHAR (30)
-    * LastName NVARCHAR (30)
-    * Phone INT
-    * Email NVARCHAR (255)
-3. Create Table named **student** with the following attribute
-    * ID Type Integer (Primary Key) auto increment
-    * FirstName NVARCHAR (30)
-    * LastName NVARCHAR (30)
-    * Phone INT
-4. Create Table named **Cours** with the following attribute
-    * ID Type Integer (Primary Key) auto increment
-    * Name NVARCHAR (30)
-5. Create Table named **CoursTeacher** with the following attribute
-    * IDCoursTeacher Type Integer (Primary Key) auto increment
-    * IdCour INT (FOREIGN KEY)
-    * IdTeacher INT (FOREIGN KEY)
-    * IdStudent INT (FOREIGN KEY)
-    * DayWeek NVARCHAR(30) _should accept only these values : 'Sunday', 'Monday', 'Tuesday' , 'Wednesday' , 'Thursday'_
-    * StartHour INT
+2. Create Table named **Laboratoire** with the following attribute
+    * CodeLab varchar(4) (Primary Key)
+    * NomLab varchar (100)
+    * NumCh* Type Integer
+    * Datcreation Date
+    * Siteweb NVARCHAR (255)
+3. Create Table named **Chercheur** with the following attribute
+    * NumCh Type Integer (Primary Key) auto increment
+    * CodeLab* varchar(4)
+    * CodeUniversité varchar(10)
+4. Create Table named **Projet** with the following attribute
+    * CodePrj varchar(4) (Primary Key)
+    * DateDebut Date
+    * Datefin Date
+    * Responsable varchar(30)
+    * Budjet INT
+    * TypePrj* varchar(10)
+5. Create Table named **TypeProjet** with the following attribute
+    * TypePrj varchar(10) (Primary Key)
+    * Libelle varchar(60)
+6. Create Table named **Participe** with the following attribute
+    * NumCh* INT (Primary Key)
+    * CodePrj* varchar(4)
+    * Charge_Horaire INT
 
 ## Exercise 2 : Insert Data
 
