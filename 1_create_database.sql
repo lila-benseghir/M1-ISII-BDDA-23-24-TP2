@@ -22,4 +22,4 @@ create table projet (
   budget INT,
   typeprj varchar(10)
   );
-alter table projet modify (budget constraint c4 check  (budget <= 5000000));
+alter table projet add CONSTRAINT c4 check (budget <= 5000000);
