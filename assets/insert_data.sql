@@ -64,4 +64,3 @@ insert into chercheur (numch,nomch,codelab,codeuniversite) values (7,'souad khad
 insert into chercheur (numch,nomch,codelab,codeuniversite) values (8,'rafik bradi','LGP','ESI');
 
 SET NOCOUNT OFF;
-insert into chercheur (numch,nomch,codelab,codeuniversite) values (9,'rafik bradi9','LGP','ESAA');
