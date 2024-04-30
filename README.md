@@ -7,7 +7,7 @@ Diagram : <br/>
 
 ## Exercise 1 : Create the Database
 
-Write the following SQL queries into [1_input_1.xml](_1_create_database.sql_)
+Write the following SQL queries into [_1_create_database.sql_](1_create_database.sql)
 1. Create a Database named **UniversityDB**
 2. Create Table named **teacher** with the following attribute
     * ID Type Integer (Primary Key) auto increment
