@@ -9,7 +9,7 @@ USE UniversityDB
   create table universite ( codeuniversite varchar(10) primary key not null, nomuniversite varchar(60));
 create table typeprojet ( typeprj varchar(10) primary key not null , libelle varchar(60));
 create table Chercheur (numch INT primary key not null,nomch varchar(30), codelab  varchar(4)  ,codeuniversite varchar(10));
-create table participe (numch INT , codeprj varchar(4),charghoraire INT,constraint clep_participe primary key (numch,codeprj));
+create table participe (numch INT , codeprj varchar(4),Charge_Horaire INT,constraint clep_participe primary key (numch,codeprj));
 
 create table laboratoire (
   codelab varchar(4) primary key not null,
