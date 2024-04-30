@@ -8,7 +8,8 @@ USE UniversityDB
 -- Create the Tables
 create table projet (
   codeprj varchar(4) primary key not null, 
-  datedébut date,
+  datedebut date,
+  datefin date,
   responsable varchar(30), 
   budget INT,
   typeprj varchar(10)
