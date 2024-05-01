@@ -1,2 +1,2 @@
 USE UniversityDB
-alter table chercheur add datenaissance date;
+alter table chercheur add date_naissance date;
