@@ -1,3 +1,3 @@
 USE UniversityDB
 
-alter table participe rename column "charge_Horaire" to "charge_H"
+ALTER TABLE participe RENAME COLUMN charge_Horaire TO charge_H;
