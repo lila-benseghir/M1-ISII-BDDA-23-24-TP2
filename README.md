@@ -19,7 +19,7 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
     * NumCh Type Integer (Primary Key) auto increment
     * NomCh varchar(30)
     * CodeLab* varchar(4)
-    * CodeUniversité varchar(10)
+    * CodeUniversite varchar(10)
 4. Create Table named **Projet** with the following attribute
     * CodePrj varchar(4) (Primary Key)
     * DateDebut Date
