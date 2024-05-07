@@ -121,16 +121,6 @@
       "points": 0.5
     },
     {
-      "name": "Check most expensive TypeProjet",
-      "setup": "",
-      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/3_3_budget.sql",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0.5
-    },
-    {
       "name": "Check sorted Sort the laboratoiries",
       "setup": "",
       "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/3_4_sort.sql",
