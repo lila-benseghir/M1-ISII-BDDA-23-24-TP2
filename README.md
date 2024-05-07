@@ -5,7 +5,7 @@ In this exercise, you will write SQL queries that create a database, tables, and
 Diagram : <br/>
 ![diagram](<assets/diagram.png>)
 
-## Exercise 1 : Create the Database
+## Exercise 1 : Create the Database (1 pts)
 
 Write the following SQL queries into [_1_create_database.sql_](1_create_database.sql)
 1. Create a Database named **UniversityDB**
@@ -39,7 +39,7 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
     * NomUniversite varchar(60)
   
 
-## Exercise 2 : Database adjustements
+## Exercise 2 : Database adjustements (4 pts)
 
 Write the following SQL queries to adjust the database:
 1. Add new column **date_naissance** to the table **chercheur**. Put your query into [_2_1_DateNaissance.sql_](2_1_DateNaissance.sql)
@@ -47,11 +47,11 @@ Write the following SQL queries to adjust the database:
 3. Add the constraint "Each **laboratoire** must have a _chef_" . Put your query into [_2_3_chef.sql_](2_3_chef.sql)
 4. Add the constraint "The _budget_ of each **projet** must not exceed 5000000". Put your query into [_2_4_budget.sql_](2_4_budget.sql)
    
- ## Exercise 3 : Database Queries 
+ ## Exercise 3 : Database Queries (3 pts)
 
  1. Display average of **Charge_Horaire** of each **project**. Put your query into [_3_1_average.sql_](3_1_average.sql)
  2. Display (_NomCh, NomUniversite_) of the **chercheurs** related to '**LSI**' **laboratoire**. Put your query into [_3_2_nomCh.sql_](3_2_nomCh.sql)
  3. Sort the **laboratoire** in descending order based on the overall **Charge_Horaire** provided by its **chercheurs**. Put your query into [_3_3_sort.sql_](3_3_sort.sql)
 
  
-  Check the Actions tab to see if you have completed the exercise successfully. You should score full marks if all tests have passed (14 points).
+  Check the Actions tab to see if you have completed the exercise successfully.
