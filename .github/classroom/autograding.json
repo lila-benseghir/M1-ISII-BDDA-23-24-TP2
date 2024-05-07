@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 0
+      "points": 1
     },
     {
       "name": "Check date_naissance adjustement",
@@ -28,7 +28,7 @@
       "output": "date_naissance",
       "comparison": "included",
       "timeout": 10,
-      "points": 0.5
+      "points": 1
     },
     {
       "name": "Start Script 2_2_DateFin.sql",
@@ -38,7 +38,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 0
+      "points": 1
     },
     {
       "name": "Check DateFin adjustement",
@@ -48,7 +48,7 @@
       "output": "   0",
       "comparison": "included",
       "timeout": 10,
-      "points": 0.5
+      "points": 1
     },
     {
       "name": "Start 2_3_chef.sql",
@@ -58,7 +58,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 0
+      "points": 1
     },
     {
       "name": "Check the contraint 'Each laboratoire must have a chef'",
@@ -68,7 +68,7 @@
       "output": "NO",
       "comparison": "included",
       "timeout": 10,
-      "points": 0.5
+      "points": 1
     },
     {
       "name": "Start 2_4_budget.sql",
@@ -78,7 +78,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 0
+      "points": 1
     },
     {
       "name": "Check the contraint 'The budget of each projet must not exceed 5000000'",
@@ -88,7 +88,7 @@
       "output": "CHECK",
       "comparison": "included",
       "timeout": 10,
-      "points": 0.5
+      "points": 1
     },
     {
       "name": "Exercice 3 : Insert Data",
@@ -98,7 +98,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 0
+      "points": 1
     },
     {
       "name": "Check average of Charge_Horaire of each project",
@@ -108,7 +108,7 @@
       "output": "p8              322",
       "comparison": "included",
       "timeout": 10,
-      "points": 0.5
+      "points": 1
     },
     {
       "name": "Check chercheurs related to 'LSI' laboratoire",
@@ -118,7 +118,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 0.5
+      "points": 1
     },
     {
       "name": "Check sorted Sort the laboratoiries",
@@ -128,7 +128,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 0.5
+      "points": 1
     }
   ]
 }
