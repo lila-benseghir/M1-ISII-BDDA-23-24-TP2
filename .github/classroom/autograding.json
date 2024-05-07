@@ -51,29 +51,9 @@
       "points": 0.5
     },
     {
-      "name": "Start 2_3_Charge_H.sql",
+      "name": "Start 2_3_chef.sql",
       "setup": "",
-      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/2_3_Charge_H.sql",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0
-    },
-    {
-      "name": "Check Charge_H adjustement",
-      "setup": "",
-      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -Q \"USE UniversityDB SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'Projet' AND COLUMN_NAME = 'Charge_H'\"",
-      "input": "",
-      "output": "Charge_H",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 0.5
-    },
-    {
-      "name": "Start 2_4_chef.sql",
-      "setup": "",
-      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/2_4_chef.sql",
+      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/2_3_chef.sql",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -91,9 +71,9 @@
       "points": 0.5
     },
     {
-      "name": "Start 2_5_budget.sql",
+      "name": "Start 2_4_budget.sql",
       "setup": "",
-      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/2_5_budget.sql",
+      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/2_4_budget.sql",
       "input": "",
       "output": "",
       "comparison": "included",
