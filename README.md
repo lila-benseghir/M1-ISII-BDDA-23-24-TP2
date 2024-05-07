@@ -44,9 +44,8 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
 Write the following SQL queries to adjust the database:
 1. Add new column **date_naissance** to the table **chercheur**. Put your query into [_2_1_DateNaissance.sql_](2_1_DateNaissance.sql)
 2. Delete the column **DateFin** from the table **Projet**. Put your query into [_2_2_DateFin.sql_](2_2_DateFin.sql)
-3. Rename the column **Charge_Horaire** from the table **Participe** to **Charge_H**. Put your query into [_2_3_Charge_H.sql_](2_3_Charge_H.sql)
-4. Add the constraint "Each **laboratoire** must have a _chef_" . Put your query into [_2_4_chef.sql_](2_4_chef.sql)
-5. Add the constraint "The _budget_ of each **projet** must not exceed 5000000". Put your query into [_2_5_budget.sql_](2_5_budget.sql)
+3. Add the constraint "Each **laboratoire** must have a _chef_" . Put your query into [_2_4_chef.sql_](2_4_chef.sql)
+4. Add the constraint "The _budget_ of each **projet** must not exceed 5000000". Put your query into [_2_5_budget.sql_](2_5_budget.sql)
    
  ## Exercise 3 : Database Queries 
 
