@@ -99,6 +99,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 0
+    },
+    {
+      "name": "Check average of Charge_H of each project",
+      "setup": "",
+      "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/3_1_average.sql",
+      "input": "",
+      "output": "   0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0.5
     }
   ]
 }
