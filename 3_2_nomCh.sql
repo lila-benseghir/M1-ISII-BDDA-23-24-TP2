@@ -1,3 +1,3 @@
 USE UniversityDB
 
-select nomCh , nomuniversité from chercheur inner join université on chercheur.codeuniversité = université.codeuniversité  where codelab='LSI';
+select nomCh , NomUniversite from chercheur inner join Universite on chercheur.CodeUniversite = universite.CodeUniversite  where codelab='LSI';
