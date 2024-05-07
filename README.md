@@ -2,9 +2,6 @@
 
 In this exercise, you will write SQL queries that create a database, tables, and answer some business queries.
 
-Diagram : <br/>
-![diagram](<assets/diagram.png>)
-
 ## Exercise 1 : Create the Database (1 pts)
 
 Write the following SQL queries into [_1_create_database.sql_](1_create_database.sql)
