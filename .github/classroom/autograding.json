@@ -125,7 +125,7 @@
       "setup": "",
       "run": "docker exec sql2017 /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Pa\\$\\$w0rd1234 -d master -i /app/3_3_sort.sql",
       "input": "",
-      "output": "LGP",
+      "output": "LGP            1222",
       "comparison": "included",
       "timeout": 10,
       "points": 1
