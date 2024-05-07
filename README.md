@@ -51,7 +51,7 @@ Write the following SQL queries to adjust the database:
 
  1. Display average of **Charge_Horaire** of each **project**. Put your query into [_3_1_average.sql_](3_1_average.sql)
  2. Display (_NomCh, NomUniversite_) of the **chercheurs** related to '**LSI**' **laboratoire**. Put your query into [_3_2_nomCh.sql_](3_2_nomCh.sql)
- 3. Sort the **laboratoire** in descending order based on the overall **Charge_Horaire** provided by its **chercheurs**. Put your query into [_3_3_sort.sql_](3_3_sort.sql)
+ 3. Sort the **laboratoire** in descending order based on the overall **Charge_Horaire** provided by its **chercheurs**. Display the codelab and the sum of Charge_Horaire. Put your query into [_3_3_sort.sql_](3_3_sort.sql)
 
  
   Check the Actions tab to see if you have completed the exercise successfully.
