@@ -9,11 +9,11 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
 2. Create Table named **Laboratoire** with the following attribute
     * CodeLab varchar(4) (Primary Key)
     * NomLab varchar (100)
-    * NumCh* Type Integer
+    * cheflab* Type Integer
     * Datcreation Date
     * Siteweb NVARCHAR (255)
 3. Create Table named **Chercheur** with the following attribute
-    * NumCh Type Integer (Primary Key) auto increment
+    * NumCh Type Integer (Primary Key)
     * NomCh varchar(30)
     * CodeLab* varchar(4)
     * CodeUniversite varchar(10)
@@ -22,7 +22,7 @@ Write the following SQL queries into [_1_create_database.sql_](1_create_database
     * DateDebut Date
     * DateFin Date
     * Responsable varchar(30)
-    * Budjet INT
+    * Budget INT
     * TypePrj* varchar(10)
 5. Create Table named **TypeProjet** with the following attribute
     * TypePrj varchar(10) (Primary Key)
@@ -46,9 +46,9 @@ Write the following SQL queries to adjust the database:
    
  ## Exercise 3 : Database Queries (3 pts)
 
- 1. Display average of **Charge_Horaire** of each **project**. Put your query into [_3_1_average.sql_](3_1_average.sql)
- 2. Display (_NomCh, NomUniversite_) of the **chercheurs** related to '**LSI**' **laboratoire**. Put your query into [_3_2_nomCh.sql_](3_2_nomCh.sql)
- 3. Sort the **laboratoire** in descending order based on the overall **Charge_Horaire** provided by its **chercheurs**. Display the codelab and the sum of Charge_Horaire. Put your query into [_3_3_sort.sql_](3_3_sort.sql)
+ 1. Display average of **Charge_Horaire** of each **project**, output columns : *CodePrj, AVG(Charge_Horaire)*. Put your query into [_3_1_average.sql_](3_1_average.sql)
+ 2. Display (_NomCh, NomUniversite_) of the **chercheurs** related to '**LSI**' **laboratoire**, output columns : *Chercheur.NomCh, Universite.NomUniversite*. Put your query into [_3_2_nomCh.sql_](3_2_nomCh.sql)
+ 3. Sort the **laboratoire** in descending order based on the overall **Charge_Horaire** provided by its **chercheurs**, output columns : *Laboratoire.CodeLab, SUM(Participe.Charge_Horaire)*. Display the codelab and the sum of Charge_Horaire. Put your query into [_3_3_sort.sql_](3_3_sort.sql)
 
  
   Check the Actions tab to see if you have completed the exercise successfully.
