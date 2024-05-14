@@ -26,8 +26,7 @@ CREATE TABLE projet (
     datefin DATE,
     responsable VARCHAR(30),
     budget INT,
-    typeprj VARCHAR(10),
-    FOREIGN KEY (typeprj) REFERENCES typeprojet(typeprj)
+    typeprj VARCHAR(10)
 );
 GO    
 
@@ -37,8 +36,7 @@ CREATE TABLE chercheur (
     nomch VARCHAR(30),
     codelab VARCHAR(4),
     codeuniversite VARCHAR(10),
-    -- FOREIGN KEY (codelab) REFERENCES laboratoire(codelab),
-    FOREIGN KEY (codeuniversite) REFERENCES universite(codeuniversite)
+    -- FOREIGN KEY (codelab) REFERENCES laboratoire(codelab)
    
 );
 GO
@@ -49,9 +47,7 @@ CREATE TABLE laboratoire (
     nomlab VARCHAR(100),
     numch INT,
     datcreation DATE,
-    siteweb NVARCHAR(255),
-    FOREIGN KEY (numch) REFERENCES chercheur(numch),
-   
+    siteweb NVARCHAR(255)
 );
 
 
@@ -60,10 +56,9 @@ GO
 
 -- Create Participe Table
 CREATE TABLE participe (
-    numch INT ,
-    codeprj VARCHAR(4) ,
-    FOREIGN KEY (numch) REFERENCES chercheur(numch),
-    FOREIGN KEY (codeprj) REFERENCES projet(codeprj),
-    Charge_Horaire INT
+    numch INT,
+    codeprj varchar(4),
+    Charge_Horaire INT,
+    PRIMARY KEY (numch, codeprj)
 );
 GO
