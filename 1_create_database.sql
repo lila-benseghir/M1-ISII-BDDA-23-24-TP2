@@ -32,14 +32,12 @@ GO
 
 -- Create Chercheur Table
 CREATE TABLE chercheur (
-    numch INT PRIMARY KEY IDENTITY(1,1),
-    nomch VARCHAR(30),
-    codelab VARCHAR(4),
-    codeuniversite VARCHAR(10),
-    -- FOREIGN KEY (codelab) REFERENCES laboratoire(codelab)
-   
+    numch int PRIMARY KEY ,
+    nomch varchar(30),
+    codelab varchar(4),
+    codeuniversite varchar(10)
 );
-GO
+    
    
 -- Create Laboratoire Table
 CREATE TABLE laboratoire (
