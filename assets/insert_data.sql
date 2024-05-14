@@ -1,6 +1,6 @@
 USE UniversityDB
 
--- SET NOCOUNT ON;
+SET NOCOUNT ON;
 
 insert into universite values ('USTHB','université de science et de technologie houari boumedien');
 insert into universite values ('UMBB','université de boumerdes');
@@ -63,4 +63,4 @@ insert into chercheur (numch,nomch,codelab,codeuniversite) values (6,'hichem lab
 insert into chercheur (numch,nomch,codelab,codeuniversite) values (7,'souad khadem','LMA','UAT');
 insert into chercheur (numch,nomch,codelab,codeuniversite) values (8,'rafik bradi','LGP','ESI');
 
--- SET NOCOUNT OFF;
+SET NOCOUNT OFF;
