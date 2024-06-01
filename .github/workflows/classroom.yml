@@ -1,6 +1,6 @@
     name: Hamouchene Classroom Workflow
 
-    on: 
+    on:
       push:
         branches:
         - '*'
